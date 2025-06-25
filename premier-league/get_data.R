@@ -36,4 +36,3 @@ player_df <- inner_join(player_df,player_list,by=c("element" = "id"))
 player_df <- inner_join(player_df, teams,by = c("team" = "team_id"))
 player_df <- inner_join(player_df, teams,by = c("opponent_team" = "team_id"))
 
-write.csv(player_df, "/home/cirseb/Documents/script/football/premier-league/data/fpl_2024_2025.csv")
