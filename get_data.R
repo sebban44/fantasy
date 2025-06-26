@@ -10,10 +10,10 @@ library(jsonlite)
 api_input <- "Allsvenskan"
 
 if(api_input == "Allsvenskan") {
-	url <- "https://fantasy.allsvenskan.se/api/bootstrap-static"
+	url <- "https://fantasy.allsvenskan.se/api/bootstrap-static/"
 	p_url <- "https://fantasy.allsvenskan.se/api/element-summary/"
 } else {
-	url <- "https://fantasy.premierleague.com/api/bootstrap-static"
+	url <- "https://fantasy.premierleague.com/api/bootstrap-static/"
 	p_url <- "https://fantasy.premierleague.com/api/element-summary/"
 }
 
